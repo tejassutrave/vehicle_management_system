@@ -1,5 +1,7 @@
+import axios from "axios";
+
 const API_URL = import.meta.env.PROD
-    ? import.meta.env.VITE_API_URL || 'https://vehicle-tracker-backend.onrender.com/api'
+    ? 'https://vehicle-tracker-backend.onrender.com/api'
     : 'http://localhost:5000/api';
 
 // Create axios instance
